@@ -24,6 +24,6 @@ spec:
         imagePullPolicy: Always
         name: djangoserver
         ports:
-        - containerPort: # {insert port here}
+        - containerPort: 8000
           protocol: TCP
       restartPolicy: Always
